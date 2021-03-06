@@ -1,13 +1,17 @@
-var express = require('express');
-var app = express();
-let port = process.env.PORT || 3000;
-// viewed at http://localhost:8080
+<!doctype html>
+<html lang="en">
 
-app.use(express.static(__dirname + '/src'))
-
-app.get('/', function(req, res){
-    res.sendfile(__dirname + "/index.html");
-});
-app.listen(port, ()=>{
-    console.log(`App is running at the port ${port}`) ;
- });
+    <head>
+        <meta charset="utf-8">
+        <title>Oracle Web SDK Sample</title>
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <script src="./src/scripts/settings.js"></script>
+        <script src="./src/scripts/web-sdk.js" onload="initSdk('Bots')"></script>
+    </head>
+    <body> 
+        <div class="background">
+            <img src="./src/images/lapi_fondo_recortado.png" alt="Fondo LAPI" class="fondo">   
+        </div>       
+    </body>
+</html>
