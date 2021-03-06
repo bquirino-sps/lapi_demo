@@ -128,7 +128,7 @@ const initSdk = (name) => {
             timestampFormat: "hh:mm a",
             //enableBotAudioResponse: true,
             //timestampMode: "relative",
-            enableClearMessage: true,
+            //enableClearMessage: true,
             //botButtonIcon: 'images/lapibot_1.png', 
             logoIcon: 'https://github.com/BrayanQuirinoSPS/lapi_demo/raw/main/src/images/lapibot_2.png', 
             botIcon: 'https://github.com/BrayanQuirinoSPS/lapi_demo/raw/main/src/images/lapibot_2.png',
