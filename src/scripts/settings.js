@@ -130,8 +130,8 @@ const initSdk = (name) => {
             //timestampMode: "relative",
             enableClearMessage: true,
             //botButtonIcon: 'images/lapibot_1.png', 
-            logoIcon: 'images/lapibot_2.png', 
-            botIcon: 'images/lapibot_2.png',
+            logoIcon: 'src/images/lapibot_2.png', 
+            botIcon: 'src/images/lapibot_2.png',
             clearMessageIcon: 'images/eliminar.png',        
             //personIcon: 'images/user-icon.png', 
             //letra y tema
