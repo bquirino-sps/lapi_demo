@@ -132,7 +132,7 @@ const initSdk = (name) => {
             //botButtonIcon: 'images/lapibot_1.png', 
             logoIcon: 'src/images/lapibot_2.png', 
             botIcon: 'src/images/lapibot_2.png',
-            clearMessageIcon: 'images/eliminar.png',        
+            //clearMessageIcon: 'src/images/eliminar.png',        
             //personIcon: 'images/user-icon.png', 
             //letra y tema
             //font: '14px Verdana, Geneva, sans-serif',
