@@ -32,3 +32,7 @@
 .oda-chat-button {
     background-color: rgba(66, 177, 65, 0) !important;
 }
+.oda-chat-card{
+    justify-content: center !important;    
+}
+
